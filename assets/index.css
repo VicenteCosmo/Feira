@@ -1,0 +1,339 @@
+body{
+    background-color: #ffff;
+
+}
+.head{
+    background-color: aliceblue;
+    width: 100%;
+    height: 8%;
+    position: fixe;
+    display: flex;
+    padding: px;
+
+     
+}
+.logo{
+    margin-left: 5%;
+    margin-top: 3px;
+   border-radius: 50%;
+   display: flex;
+   width: 80px;
+   height: 80px;
+
+}
+.h1{
+  margin-left: 2%;
+  color: darkblue;
+}
+ .menu{
+    display: flex;
+    margin-left:90%;
+    text-align: center;
+    list-style: none;
+    margin-top: 2%;
+    }
+    
+
+    .a{
+        margin-left: 40px;
+        text-decoration: none;
+        list-style: none;
+        color: darkblue;
+        font-size: 20px;
+background-size: 100%;
+        
+    }
+
+    .back{
+        background-image: url('./imagem/logo.jpg');
+        width: 100%;
+        height: 600px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+         background-size: cover;
+         text-align: center;
+        
+    }
+    .animated-text{
+
+        font-size: 30px;
+        color: #fff;
+
+      
+    }
+    .animated-text span{
+        position: relative;
+       
+    }
+
+    .p2 {
+        margin-top: 10px;
+        position: relative;
+        padding-top: 110px;
+        text-align: center;
+    }
+
+    .animated-text span::before{
+        content: "";
+        color: #279EF4;
+        
+        animation: animate 40s ease-in-out infinite; 
+         
+    
+       
+    
+    }
+    .animated-text span::after{
+        opacity: 1;
+        content: "";
+        border-left: 2px solid rgb(29, 13, 250);
+        position: absolute;
+        right: -1px;
+        animation: type 40s ease-in-out  infinite ;
+        background-color: #001f31;
+        height: 100%;
+        width: 0;
+       
+        
+       
+    }
+    
+    @keyframes type {
+        10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+            width: 0;
+        }
+        5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%, 0%{
+            width: 100%;
+        }
+        
+    }
+    
+    
+    
+    @keyframes animate {
+        0%, 20%{
+            content: "Contabilidade e Auditoria";
+        }
+        21%, 40%{
+            content: "Recursos Humanos ";
+        }
+        41%, 60%{
+            content: " Gestão Fiscal ";
+        }
+        61%, 80%{
+            content: " Estudos de Viabilidades  ";
+        }
+         81%,100%{
+            content: "Supervisão Contabilística";
+        }
+        
+    }
+    body1{
+        background-color: #ffff;
+        width: 900px;
+    }
+    .cardAll{
+        display: flex;
+        
+
+    }
+
+        .img{
+            width: 60%;
+            height: 45%;
+            margin-left: 22%;
+            margin-top: 5%;
+        }
+
+
+    .cardH {
+        color: darkblue;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-right: auto;
+        
+    }
+    .cardP {
+        text-align: center;
+        
+    }
+    .card1{
+       background-color: aliceblue;
+        width: 700px;
+        height: 500px;
+        margin-top: 10px;
+        margin-left: 27px;
+        box-shadow: 5px 5px 0px 0px darkblue ;
+        border-radius: 20px;
+        
+    }
+    a{
+        text-decoration: none;
+        border-bottom: 5px;
+        font-size: 20px;
+       color: darkblue;
+    }
+    .saiba{
+        margin-left: 40%;
+        margin-top: 60px;
+        text-decoration: none;
+        border: 1px solid darkblue;
+        width: 15%;
+        border-radius: 10px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .saiba:hover{
+        color: white;
+        background-color: #279EF4;
+        font-size: 20px;
+        transform: scale(1);
+        transition: 2s;
+    }
+    .aiba{
+       
+        margin-top: 60px;
+        text-decoration: none;
+        
+    
+        border-radius: 10px;
+        
+        text-align: center;
+    }
+
+    
+    .slogan {
+        margin-left: 40%;
+        color: darkblue;
+    }
+  .slogan span::before {
+        content: '';
+        width: 20%;
+        height: 3px;
+        background-color: darkblue;
+        position: absolute;
+        margin-top: 1.3%;
+        margin-left: -20%;
+        
+    }
+    .slogan span::after {
+        content: '';
+        width: 20%;
+        height: 3px;
+        background-color: darkblue;
+        position: absolute;
+        margin-top: 1.3%;
+    }
+    .sobreNos{
+        display: flex;
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+
+    .sobreNosH{
+        color: darkblue;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 6.5%;
+        
+    }
+
+    .sobreNosCard{
+        background-color: #ffff;
+        width: 700px;
+        height: 250px;
+        margin-top: 10px;
+        margin-left: 27px;
+        border-left: 3px solid darkblue;
+        border-radius: 20px;
+        
+    }
+    
+footer{
+   background-image: url('./imagem/logo.jpg');
+   background-attachment: fixed;
+   background-size: cover;
+margin-top: -15%;  
+height: 1000px;  
+}   
+.top{
+        width: 100%;
+        height: 400px;
+        background-attachment: fixed;
+         background-size: cover;
+         margin-top: 24%;
+         display: flex;
+}
+.footerCard1{
+    
+    background-color: #ffff;
+    width: 100%;
+    height: 250px;
+    padding-top: 10%;
+}
+.footerCard .img{
+    width: 100px;
+    height: 100px;
+    margin-left: 35%;
+    margin-top: -0.7%;
+}
+
+.footerCard{
+       
+    background-color: #ffff;
+    width: 100%;
+    height: 170px;
+    padding-bottom: 10%;
+    border-right: 5px solid darkblue;
+    background-color: aliceblue;
+    border-bottom: 40px solid #fff;
+}
+   .redes{
+    display: flex;
+    margin-left: 2%;
+    justify-content: center;
+   }
+   .redes img{
+    border-radius: 50%;
+    width: 10%;
+    margin-left: 4%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+   }
+   .join{
+    display: flex;
+    margin-left: -25%;
+   }
+   .telefone{
+    display: flex;
+    margin-left: 12%;
+    justify-content: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    color: black;
+   }
+   .telefone img{
+    border-radius: 50%;
+    width: 10%;
+    margin-right: 4%;
+    
+   }
+   .email{
+    display: flex;
+    margin-left:10%;
+    justify-content: center;
+    color: black;
+   }
+   .email img{
+    width: 10%;
+    border-radius: 20%;
+   }
+   .cardp{
+    margin-left: 20%;
+    margin-top: 20%;
+   }
