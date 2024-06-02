@@ -1,10 +1,13 @@
+
 body{
     background-color: #ffff;
 
     @media screen and (min-width: 20px)  and (max-width: 700px) {
-    
+    *{
+        overflow-x: hidden;
+    }
       .body1{
-            width: 1000px;
+            width: 900px;
         }
 
         .head{
@@ -30,7 +33,7 @@ body{
         margin-top: 5.7%;
           margin-left: 2%;
           color: darkblue;
-          font-size: 500%;
+          font-size: 400%;
         }
 
         .hamburguer{
@@ -40,7 +43,7 @@ body{
         }
         .bar1{
             background-color: darkblue;
-            width: 55px;
+            width: 45px;
             height: 5%;
             margin-top: 5px;
             border-radius: 1px;
@@ -48,14 +51,14 @@ body{
         .bar2{
             border-radius: 1px;
             background-color: darkblue;
-            width: 55px;
+            width: 45px;
             height: 5%;
             margin-top: 5px;
         }
         .bar3{
             border-radius: 1px;
             background-color: darkblue;
-            width: 55px;
+            width: 45px;
             height: 5%;
             margin-top: 5px;
         }
@@ -64,7 +67,7 @@ body{
             display: block;
             text-align: center;
             list-style: none;
-            margin-top: 45%;
+            margin-top: 35%;
             background-color: darkblue;
             height: 100%;
             width: 100%;
@@ -72,7 +75,7 @@ body{
             display: none;
             z-index: 1;
             position: absolute;
-            margin-left: -100%;
+            margin-left: -90%;
             }
             
             .a1{
@@ -93,8 +96,8 @@ body{
             .back{
                 background-image: url('./imagem/logo.jpg');
                 width: 100%;
-                height: 600px;
-                background-repeat: no-repeat;
+                height: 800px;
+                background-repeat: repeat;
                 background-attachment: fixed;
                  background-size: contain;
                  text-align: justify;
@@ -157,13 +160,14 @@ body{
             .sobreNosCard{
                 background-color: #ffff;
                 width: 700px;
-                height: 400px;
+                height: 1300px;
                 margin-top: 10px;
                 margin-left: 27px;
                 border-top: 1px solid darkblue;
                 border-left: 0px solid darkblue;
                 border-radius: 0px;
-                margin-bottom: 1000px;
+                margin-bottom: 100px;
+                border-bottom: 2px solid #279EF4;
             }
              .sobreNos .cardH {
                 color: darkblue;
@@ -199,9 +203,9 @@ body{
                 width: 90%;
                 height: 1400px;
                 margin-top: 10px;
-                margin-left: 3.5%;
-                box-shadow: 5px 5px 0px 0px darkblue ;
-                border-radius: 20px;
+                margin-left: 4.5%;
+                box-shadow: 0px 0px 20px #888 ;
+                border-radius: 0px;
                 margin-bottom: 150px;
             }
             a{
@@ -249,6 +253,7 @@ body{
                 font-size: 60px;
                 margin-left: 0%;
                 border-bottom: 1px solid darkblue;
+                text-align: center;
             }
           .slogan span::before {
                 content: '';
@@ -271,6 +276,7 @@ body{
             .cardAll{
                 display: block;
                 margin-top: 20px;
+                align-items: center;
             }
 
             /*Footer*/
@@ -288,7 +294,7 @@ body{
                      height: 400px;
                      background-attachment: fixed;
                       background-size: cover;
-                      margin-top: 24%;
+                      margin-top: 4%;
                       display: block;
              }
              .footerCard1{
@@ -499,13 +505,13 @@ background-size: 100%;
     
     @keyframes animate {
         0%, 20%{
-            content: "Tenha uma viagem ao passado";
+            content: "Uma viagem ao passado";
         }
         21%, 40%{
             content: "Com o melhor hambúrguer ";
         }
         41%, 60%{
-            content: "Revivendo as melhores partidas";
+            content: "Revivendo suas partidas";
         }
         61%, 80%{
             content: " Com o seu jogo nostálgico";
@@ -555,8 +561,8 @@ background-size: 100%;
         height: 550px;
         margin-top: 10px;
         margin-left: 27px;
-        box-shadow: 5px 5px 0px 0px darkblue ;
-        border-radius: 20px;
+        box-shadow: 0px 0px 20px #888 ;
+        border-radius: 5px;
         
     }
     a{
