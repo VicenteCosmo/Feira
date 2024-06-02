@@ -4,17 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RetroBurgues</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/index.css">
 </head>
 <body class="all">
+
+  <body>
+    <div class="body1">
+
   <div class="head">
     <img src="./imagem/Logo8.png" alt="" class="logo">
-    <h1 class="h1">RetroBurgues</h1>
+    <h1 class="h1">RetroBurguer</h1>
+    <div id="hamburguer" class="hamburguer">
+      <div id="bar1" class="bar1"></div>
+      <div id="bar2" class="bar2"></div>
+      <div id="bar3" class="bar3"></div>
+    </div>
+    <br>
     <ul class="ul1">
-      <div class="menu">
-        <li>  <a class="a"  href="">Interesses</a></li>
-        <li>  <a class="a"  href="/cadastro" target="_blank">Cadastro</a></li>
-        <li>  <a class="a"  href="">Sobre_Nós</a></li>
+      <div id="menu" class="menu">
+        <li> <div class="a1"><a class="a"  href="#interesses">Interesses</a></div> </li>
+        <li> <div class="a1"><a class="a"  href="/cadastro" target="_blank">Cadastro</a></div> </li>
+        <li>  <div class="a1"><a class="a"  href="#sobreNos">Sobre_Nós</a></div></li>
     
       </div>
     </ul>
@@ -23,32 +33,36 @@
 
   <div class="back">
     <div  class="animated-text " >     
-      <h2 class="p2">Seja bem-vindo/a à NOSTALGAME <br> <span class="span123"></span> </h2>    
+      <h2 class="p2">Bem-vindo/a à RetroBurguer <br> <span class="span123"></span> </h2>    
     </div>
   </div>
 
-  <body1>
     <div class="sobreNos">
-      <h1 class="sobreNosH">Sobre Nós</h1>
+      <h1 id="sobreNos " class="sobreNosH">Sobre Nós</h1>
 
     <div class="sobreNosCard">
-        <h2 class="cardH"> Alimentação com qualidade</h2>
-        <p class="cardP">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           recusandae vero voluptates delectus
-           similique voluptate possimus obcaecati enim, quae, dolore ipsa?</p>
+        <h2 class="cardH"> Passado divertido & futuro saudável</h2>
+        <p class="cardP">A RetroBurguer consiste numa StartUp que mostra-se 
+          capaz de proporcionar aos seus clentes um ambiente eufórico, desfrundando do 
+          melhor Hambúrguer enquanto diverte-se com o seu jogo nostálgico. A RetroBurguer é uma 
+          emopresa vocacionada à venda de Hambúrguer e sumos naturais, para além da organização de partidas
+           amigáveis e de campeonatos em várias gerações de consoles dos seguintes 
+          jogos: Naruto, Mortal Kombact, FIFA e PES. É uma empresa em nome colectivo.</p>
       </div>
     </div>
 
-    <h1 class="slogan"> <span> Lucro acima dos clientes </span></h1>
+    <h1 class="slogan"> <span>Passado divertido & futuro saudável </span></h1>
     <div class="cardAll">
 
       <div id="id" class="card1">
         <img  class="img" src="./imagem/hamburguer2.jpg" alt="">
         <h2 class="cardH">Hambúrguer de qualidade</h2>
-        <p class="cardP">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Magnam assumenda aliquam qui corporis repudiandae, quo fugit nam 
-           recusandae vero voluptates delectus
-           similique voluptate possimus obcaecati enim, quae, dolore ipsa?</p>
+        <p class="cardP">Descubra uma experiência em sabor com o nosso
+          hambúrguer feito especialmente para atender os paladares mais exigentes.
+          Feitos com ingredientes frescos e seleccionados, nosso hambúrguer é a combinação perfeita 
+          de suculência e sabor em cada mordida <br>
+         Prove o sabor incomparável da RetroBurguer e transforme sua refeição em um momento especial
+        </p>
            <div class="aiba"><a href="#">Contacto: 956388860</a></div>
 
            <div class="liquid">
@@ -56,13 +70,14 @@
            </div>
       </div>
       <div class="card1">
-        <img   class="img" src="./imagem/Logo5.png" alt="">
+        <img   class="img" src="./imagem/Logo8.png" alt="">
         <h2 class="cardH"> Jogos Nostálgicos</h2>
-        <p class="cardP">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Magnam assumenda aliquam qui corporis repudiandae, quo fugit nam 
-           recusandae vero voluptates delectus
-           similique voluptate possimus obcaecati enim, quae, dolore ipsa?</p>
-           <div class="saiba"><a href="./cadastro.html">Saiba mais</a></div>
+        <p class="cardP">
+          Na RetroBurguer a experiência gastronômica une-se ao entretenimento!Além de nossos deliciosos 
+          hambúrgueres, oferecemos uma seleção exclusiva de jogos para tomar seu momento connosco ainda mais divertido.
+          <br>Venha jogar enquanto saboreia o mmelhor da nossa culinária.
+        </p>
+           <div class="saiba"><a href="/cadastro" target="_blank">Saiba mais</a></div>
       </div>
       
 
@@ -102,16 +117,38 @@
         </div>
 
         <div class="footerCard">
-          <h2 class="cardH"> Interesses</h2>
+          <h2 id="interesses" class="cardH"> Interesses</h2>
           <p class="cardp"><a class="aa" href="#id">Alimentação de qualidade</a></p>
           <p class="cardp"><a href="./cadastro.html">Jogos Nostálgicos</a></p>
         </div>
   
       </div>
  </footer>
-
-  </body1>
+</div>
+</body1>
   
-    
+    <script>
+      const bar1=document.getElementById('bar1')
+      const bar2=document.getElementById('bar2')
+      const bar3=document.getElementById('bar3')
+      const hamburguer=document.getElementById('hamburguer')
+      const menu=document.getElementById('menu')
+
+      hamburguer.addEventListener('click',()=>{
+        if(menu.style.display=='none'){
+          menu.style.display='block'
+          bar3.style.display='none'
+          bar1.style.transform='translateY(5px) rotate(-45deg)'
+          bar2.style.transform='translateY(-5px) rotate(45deg)'
+        }
+       else {
+          menu.style.display='none'
+          bar3.style.display='block'
+          bar1.style.transform='translateY(0px) rotate(0deg)'
+          bar2.style.transform='translateY(0px) rotate(0deg)'
+        }
+      })
+
+    </script>
 </body>
 </html>

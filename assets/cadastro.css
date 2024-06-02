@@ -1,6 +1,362 @@
 body{
     background-color: #ffff;
 
+    @media screen and (min-width: 20px)  and (max-width: 700px) {
+    
+        .body1{
+              width: 1000px;
+          }
+  
+          .head{
+              background-color: aliceblue;
+              width: 100%;
+              height: 3%;
+              position: fixe;
+              display: flex;
+              padding: px;
+          
+               
+          }
+          .logo{
+              margin-left: 5%;
+              margin-top: 3px;
+             border-radius: 50%;
+             display: flex;
+             width: 20%;
+             height:20%;
+          
+          }
+          .h1{
+          margin-top: 5.7%;
+            margin-left: 2%;
+            color: darkblue;
+            font-size: 500%;
+          }
+  
+          .hamburguer{
+              margin-top: 8%;
+              display: block;
+              margin-left: 15%;
+          }
+          .bar1{
+              background-color: darkblue;
+              width: 55px;
+              height: 5%;
+              margin-top: 5px;
+              border-radius: 1px;
+          }
+          .bar2{
+              border-radius: 1px;
+              background-color: darkblue;
+              width: 55px;
+              height: 5%;
+              margin-top: 5px;
+          }
+          .bar3{
+              border-radius: 1px;
+              background-color: darkblue;
+              width: 55px;
+              height: 5%;
+              margin-top: 5px;
+          }
+  
+          .menu{
+              display: block;
+              text-align: center;
+              list-style: none;
+              margin-top: 45%;
+              background-color: darkblue;
+              height: 100%;
+              width: 100%;
+              border-bottom-left-radius: 50%;
+              display: none;
+              z-index: 1;
+              position: absolute;
+              margin-left: -100%;
+              }
+              
+              .a1{
+                  margin-top: 100px;
+                  text-align: justify;
+              }
+  
+              .a{
+                  text-decoration: none;
+                  list-style: none;
+                  color: #ffff;
+                   background-size: 100%;
+                   font-size: 350%;
+                   margin-top: 100px;
+                  
+              }
+
+              .slogan{
+                color: darkblue; 
+               margin-left: 23%;
+                justify-content: center;
+                text-align: justify;
+                margin-top: 6.5%;
+                font-size: 80px;
+            }
+            .slogan span::before {
+                content: '';
+                width: 20%;
+                height: 3px;
+                background-color: darkblue;
+                position: absolute;
+                margin-top: 10%;
+                margin-left: -20%;
+                
+            }
+            .slogan span::after {
+                content: '';
+                width: 20%;
+                height: 3px;
+                background-color: darkblue;
+                position: absolute;
+                margin-top: 10%;
+            }
+            .card1{
+                background-color: aliceblue;
+                 width: 90%;
+                 height: 1400px;
+                 margin-top: 10px;
+                 margin-left: 3.5%;
+                 box-shadow: 5px 5px 0px 0px darkblue ;
+                 border-radius: 20px;
+                 margin-bottom: 150px;
+             }
+             .cardAll{
+                display: block;
+                margin-top: 5px;
+            }
+            .cardH {
+                color: darkblue;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                margin-right: auto;
+                font-size: 60px;
+            }
+            .cardP {
+                text-align: justify;
+                padding: 0px 8px 0px 8px;
+                font-size: 40px;
+                
+            }
+
+            .box1{
+                margin-top: 50px;
+                display: block;
+                width: 100%;
+            }
+        
+            .box1 .card1{
+                width: 100%;
+                margin-top: 10%;
+                background-color: #ffff;
+                box-shadow: 5px 5px 5px 5px #ffff;
+                border-bottom: 2.5px solid darkblue;
+                border-right: 0px solid darkblue;
+                height: 250px;
+                border-radius: 0%;
+            }
+        
+            .box1 .img{
+                height: 20%;
+                visibility: collapse;
+        
+            }
+            .form1{
+                /*background-color:  #4b6bfa;*/
+               /* background-color: aliceblue;*/
+               box-shadow: 5px 5px 0px 0px darkblue ;
+               border-radius: 15px;
+                border-bottom: 0px solid #279EF4;
+                height: 800px;
+                width:950px;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+               margin-left: 3%;
+               margin-top: 0%;
+            }
+            .liquid{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                background-color: #4973ff;
+               background-color: aliceblue;
+                z-index: -1;
+            }
+        
+           .liquid::before,.liquid::after{
+              position: absolute;
+              content: '';
+               top: 0;
+              /* left: 50%;*/
+               width: 200%;
+               height: 200%;
+               transform: translate(-50%, -65%);
+               transition: 1s ease-in-out;
+            }
+            .liquid::before{
+                position: absolute;
+                background: rgb(36, 33, 245);
+                background: rgba(20,20,20,.5);
+                border-radius: 40%;
+                animation: wave 4s infinite linear;
+        
+            }
+        .liquid::after{
+            background: rgba(20,20,20,.5);
+            background: rgb(36, 33, 245);
+            border-radius: 45%;
+            animation: wave 4s infinite linear;
+        }
+        .cardH1 {
+            color:#ffff;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-right: auto;
+            font-size: 50px;
+        }
+        
+    .btn{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        width: 30%;
+        height: 100px;
+        background-color: #191919;
+        color: white;
+        padding: 14px 10px;
+        border-radius: 24px;
+        transition: .25s;
+        border-color: #caf8ed;
+        cursor: pointer;
+        font-size: 40px;
+    }
+    
+    .btn:hover{
+        background-color: #279EF4;
+    }
+
+    .form1 .input {
+        margin-top: 10px;
+        width: 70%;
+        height: 100px;
+        background-color: #191919;
+        color: white;
+        border-color: #279EF4;
+        padding: 14px 10px;
+        border-radius: 24px;
+        transition: .25s;
+       font-size: 50px;
+    }
+    
+
+               /*Footer*/
+            footer{
+                background-image: url('./imagem/logo.jpg');
+                background-attachment: fixed;
+                background-size: contain;
+                 margin-top:10%;  
+                 height: 500px; 
+                 background-repeat: round;
+                 width: 1000px;
+             }   
+             .top{
+                     width: 1000px;
+                     height: 300px;
+                     background-attachment: fixed;
+                      background-size: cover;
+                      margin-top: 24%;
+                      display: block;
+             }
+             .footerCard1{
+                visibility: hidden;
+                 background-color: #ffff;
+                 width: 100%;
+                 height: 250px;
+                 padding-top:5%;
+                 margin-top: 10%;
+                 border: 10px solid #ffff;
+             }
+             .footerCard .img{
+                 width: 200%;
+                 height: 200%;
+                 margin-left: 500px;
+                 margin-top: 0%;
+                 margin-top: 0;
+             }
+             
+             .footerCard{
+                    
+                 background-color: #ffff;
+                 width: 100%;
+                 height: 150%;
+                 padding-bottom: 10%;
+                 border-right: 5px solid darkblue;
+                 background-color: aliceblue;
+                 border-bottom: 40px solid #fff;
+             }
+             .cardP{
+                text-align: center;
+                margin-left: 9%;
+             }
+                .redes{
+                 display: flex;
+                 margin-left: 2%;
+                 justify-content: center;
+                }
+                .redes img{
+                 border-radius: 50%;
+                 width: 8%;
+                 margin-left: 4%;
+                 margin-top: 13%;
+                 margin-bottom: 10%;
+                }
+                .join{
+                 display: flex;
+                 margin-left: -25%;
+                }
+                .telefone{
+                 display: flex;
+                 margin-left: 12%;
+                 justify-content: center;
+                 margin-top: 3%;
+                 margin-bottom: 10%;
+                 color: black;
+                }
+                .telefone img{
+                 border-radius: 50%;
+                 width: 7%;
+                }
+                .email{
+                 display: flex;
+                 margin-left:12%;
+                 justify-content: center;
+                 color: black;
+                }
+                .email img{
+                 width: 7%;
+                 border-radius: 20%;
+                }
+                .cardp{
+                 margin-left: 20%;
+                 margin-top: 10%;
+                }
+                .cardp a{
+                    font-size: 200%;
+                }
+    }
+    
+
 }
 .head{
     background-color: aliceblue;
@@ -45,7 +401,7 @@ background-size: 100%;
     }
     body1{
         background-color: #ffff;
-        width: 900px;
+        
     }
     .cardAll{
         display: flex;
@@ -55,8 +411,8 @@ background-size: 100%;
 
     .img{
         width: 90%;
-        height: 70%;
-        margin-left: 8%;
+        height: 60%;
+        margin-left: 5.5%;
         margin-top: 5%;
         box-shadow: 0px 0px 5px 5px darkblue ;
     }
@@ -153,7 +509,7 @@ background-size: 100%;
         align-items: center;
         justify-content: center;
         margin-top: 30px;
-        width: 100px;
+        width: 15%;
         height: 50px;
         background-color: #191919;
         color: white;
@@ -167,10 +523,11 @@ background-size: 100%;
     .btn:hover{
         background-color: #279EF4;
     }
-    .form .input {
+
+    .form1 .input {
         margin-top: 10px;
-        width: 400px;
-        height: 20px;
+        width: 70%;
+        height: 55%;
         background-color: #191919;
         color: white;
         border-color: #279EF4;
@@ -264,40 +621,12 @@ background-size: 100%;
     }
     
 }
-    
-    .btn{
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        margin-top: 30px;
-        width: 100px;
-        height: 50px;
-        background-color: #191919;
-        color: white;
-        padding: 14px 10px;
-        border-radius: 24px;
-        transition: .25s;
-        border-color: #caf8ed;
-        cursor: pointer;
-    }
+
     
     .btn:hover{
         background-color: #279EF4;
     }
-    .form1 .input {
-        margin-top: 10px;
-        width: 400px;
-        height: 20px;
-        background-color: #191919;
-        color: white;
-        border-color: #279EF4;
-        padding: 14px 10px;
-        border-radius: 24px;
-        transition: .25s;
-       
-    }
-    
-    
+
     .input1:hover{
         width: 450px;
     }

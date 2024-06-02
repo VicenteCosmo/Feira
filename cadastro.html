@@ -7,48 +7,66 @@
     <link rel="stylesheet" href="cadastro.css">
 </head>
 <body>
+
+  <body1>
+  <div class="body1">
     <div class="head">
         <img src="./imagem/Logo8.png" alt="" class="logo">
         <h1 class="h1">RetroBurgues</h1>
+
+        <div id="hamburguer" class="hamburguer">
+          <div id="bar1" class="bar1"></div>
+          <div id="bar2" class="bar2"></div>
+          <div id="bar3" class="bar3"></div>
+        </div>
+
         <ul class="ul1">
-          <div class="menu">
-            <li>  <a class="a"  href="">Interesses</a></li>
-            <li>  <a class="a"  href="cadastro.html">Cadastro</a></li>
-            <li>  <a class="a"  href="">Sobre_Nós</a></li>
+          <div id="menu" class="menu">
+            <li> <div class="a1"><a class="a"  href="#interesses">Interesses</a></div> </li>
+            <li> <div class="a1"><a class="a"  href="/cadastro" >Cadastro</a></div> </li>
+            <li>  <div class="a1"><a class="a"  href="#sobreNos">Sobre_Nós</a></div></li>
         
           </div>
         </ul>
        
       </div>
 
-      <body1>
         <h1 class="slogan"> <span> Jogos Nostálgicos </span></h1>
         <div class="cardAll">
     
           <div class="card1">
             <img  class="img" src="./imagem/mortalCombact.jpg" alt="">
             <h2 class="cardH"> Mortal Combact</h2>
-            <p class="cardP">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <p class="cardP">Entre na arena de combate com Mortal Komba, um clássico dos jogos de luta.
+              Escolha entre uma seleção de lutadores icônicos e desafie seus amigos em batalhas
+              intensas e cheias de adrenalina.
               </p>
           </div>
           <div class="card1">
             <img   class="img" src="./imagem/naruto.jpg" alt="">
             <h2 class="cardH"> Naruto</h2>
-            <p class="cardP">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <p class="cardP">Mergulhe no universo ninja de Naruto e junte-se aos seus personagens
+              favoritos em batalhas emocionantes. Com gráficos vibrantes e uma partida envolvente,
+              vc vai sentir-se parte do team.
               </p>
 
           </div>
           <div class="card1">
             <img   class="img" src="./imagem/fifa.jpg" alt="">
             <h2 class="cardH">FIFA</h2>
-            <p class="cardP">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <p class="cardP">
+              Experimente a emoção do futebol com a FIFA, o jogo que é referência mundial no gênero.
+              Com gráficos realistas e partidas precisas, você pode recriar seus campionatos favoritos ou desafiar
+              amigos em partidas electrizantes.
               </p>
                
           </div>
           <div class="card1">
             <img   class="img" src="./imagem/psp.jpg" alt="">
-            <h2 class="cardH"> PSP</h2>
-            <p class="cardP">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <h2 class="cardH"> PES</h2>
+            <p class="cardP">Sinta a paixão do futebol com o PES, conhecidopor seus jogos 
+              fluídos e realistas. Compita em ligas, torneios ou em emocionantes partidas amistosas, 
+              sempre com a qualidade que só o PES oferece.
               </p>
 
           </div>
@@ -86,9 +104,9 @@
 
   
       
-  </section>
+        </section>
 
-  <footer>
+   <footer>
 
     <div class="footerCard1">
       
@@ -122,15 +140,39 @@
       </div>
 
       <div class="footerCard">
-        <h2 class="cardH"> Interesses</h2>
+        <h2 id="interesses" class="cardH"> Interesses</h2>
         <p class="cardp"><a class="aa" href="#id">Alimentação de qualidade</a></p>
-        <p class="cardp"><a href="./cadastro.html">Jogos Nostálgicos</a></p>
+        <p class="cardp"><a href="/cadastro">Jogos Nostálgicos</a></p>
       </div>
 
     </div>
-</footer>
+    </footer>
+  </div>
+</body1>
 
-      </body1>
+      <script>
+        const bar1=document.getElementById('bar1')
+        const bar2=document.getElementById('bar2')
+        const bar3=document.getElementById('bar3')
+        const hamburguer=document.getElementById('hamburguer')
+        const menu=document.getElementById('menu')
+  
+        hamburguer.addEventListener('click',()=>{
+          if(menu.style.display=='none'){
+            menu.style.display='block'
+            bar3.style.display='none'
+            bar1.style.transform='translateY(5px) rotate(-45deg)'
+            bar2.style.transform='translateY(-5px) rotate(45deg)'
+          }
+         else {
+            menu.style.display='none'
+            bar3.style.display='block'
+            bar1.style.transform='translateY(0px) rotate(0deg)'
+            bar2.style.transform='translateY(0px) rotate(0deg)'
+          }
+        })
+  
+      </script>
 
     
 </body>

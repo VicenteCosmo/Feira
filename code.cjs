@@ -8,11 +8,11 @@ const port=  4002
 
 
 const connection=mysql.createConnection({
-    host:'localhost',
-    user:'root',
-    password:'cosmo',
+    host:'bhkrqm8tmdklmlandf4l-mysql.services.clever-cloud.com',
+    user:'u2wxvpeop20ljiar',
+    password:'BYiHKmKanpUCPrT5RmT4',
     port:3306,
-    database:'cadastro'
+    database:'bhkrqm8tmdklmlandf4l'
 })
 
 connection.connect( (error)=>{
