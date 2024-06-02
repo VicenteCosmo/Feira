@@ -40,8 +40,10 @@ body{
             margin-top: 8%;
             display: block;
             margin-left: 15%;
+            transition: .7s;
         }
         .bar1{
+            transition: .7s;
             background-color: darkblue;
             width: 45px;
             height: 5%;
@@ -49,6 +51,7 @@ body{
             border-radius: 1px;
         }
         .bar2{
+            transition: .7s;
             border-radius: 1px;
             background-color: darkblue;
             width: 45px;
@@ -56,6 +59,7 @@ body{
             margin-top: 5px;
         }
         .bar3{
+            
             border-radius: 1px;
             background-color: darkblue;
             width: 45px;
@@ -76,6 +80,7 @@ body{
             z-index: 1;
             position: absolute;
             margin-left: -90%;
+            transition: 10s;
             }
             
             .a1{
@@ -216,11 +221,11 @@ body{
                color: darkblue;
             }
             .saiba{
-                margin-left: 40%;
+                margin-left: 35%;
                 margin-top: 60px;
                 text-decoration: none;
                 border: 1px solid darkblue;
-                width: 25%;
+                width: 35%;
                 border-radius: 15px;
                 padding: 5px;
                 text-align: center;
@@ -246,6 +251,7 @@ body{
         
             .img{
                 width: 90%;
+                height: 40%;
                 margin-left: 3%;
             }
             .slogan {
