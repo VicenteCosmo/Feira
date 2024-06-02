@@ -33,7 +33,7 @@ body{
           margin-top: 5.7%;
             margin-left: 2%;
             color: darkblue;
-            font-size: 500%;
+            font-size: 400%;
           }
   
           .hamburguer{
@@ -64,34 +64,34 @@ body{
           }
   
           .menu{
-              display: block;
-              text-align: center;
-              list-style: none;
-              margin-top: 45%;
-              background-color: darkblue;
-              height: 100%;
-              width: 100%;
-              border-bottom-left-radius: 50%;
-              display: none;
-              z-index: 1;
-              position: absolute;
-              margin-left: -100%;
-              }
-              
-              .a1{
-                  margin-top: 100px;
-                  text-align: justify;
-              }
-  
-              .a{
-                  text-decoration: none;
-                  list-style: none;
-                  color: #ffff;
-                   background-size: 100%;
-                   font-size: 350%;
-                   margin-top: 100px;
-                  
-              }
+            display: block;
+            text-align: center;
+            list-style: none;
+            margin-top: 35%;
+            background-color: darkblue;
+            height: 150%;
+            width: 100%;
+            border-bottom-left-radius: 50%;
+            display: none;
+            z-index: 1;
+            position: absolute;
+            margin-left: -100%;
+            }
+            
+            .a1{
+                margin-top: 90px;
+                text-align: justify;
+            }
+
+            .a{
+                text-decoration: none;
+                list-style: none;
+                color: #ffff;
+                 background-size: 100%;
+                 font-size: 350%;
+                 margin-top: 100px;
+                
+            }
 
               .slogan{
                 color: darkblue; 
@@ -107,7 +107,7 @@ body{
                 height: 3px;
                 background-color: darkblue;
                 position: absolute;
-                margin-top: 10%;
+                margin-top: 12%;
                 margin-left: -20%;
                 
             }
@@ -117,7 +117,7 @@ body{
                 height: 3px;
                 background-color: darkblue;
                 position: absolute;
-                margin-top: 10%;
+                margin-top: 12%;
             }
             .card1{
                 background-color: aliceblue;
@@ -176,7 +176,7 @@ body{
                box-shadow: 5px 5px 0px 0px darkblue ;
                border-radius: 15px;
                 border-bottom: 0px solid #279EF4;
-                height: 800px;
+                height: 1000px;
                 width:950px;
                 text-align: center;
                 align-items: center;
@@ -269,33 +269,32 @@ body{
                 background-attachment: fixed;
                 background-size: contain;
                  margin-top:10%;  
-                 height: 500px; 
+                 height: 1000px; 
                  background-repeat: round;
                  width: 1000px;
              }   
              .top{
                      width: 1000px;
-                     height: 300px;
+                     height: 600px;
                      background-attachment: fixed;
                       background-size: cover;
-                      margin-top: 24%;
+                      margin-top: 40%;
                       display: block;
              }
              .footerCard1{
-                visibility: hidden;
+                
                  background-color: #ffff;
-                 width: 100%;
-                 height: 250px;
-                 padding-top:5%;
-                 margin-top: 10%;
-                 border: 10px solid #ffff;
+                 width: 0%;
+                 height: 0px;
+                 padding-top:0%;
+                 margin-top: 0%;
+                 border: 0px solid #ffff;
              }
              .footerCard .img{
                  width: 200%;
                  height: 200%;
                  margin-left: 500px;
-                 margin-top: 0%;
-                 margin-top: 0;
+                 margin-top: 100px;
              }
              
              .footerCard{
