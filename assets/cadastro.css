@@ -1,5 +1,6 @@
 body{
     background-color: #ffff;
+    font-family: Platino Linotype;
 
     @media screen and (min-width: 20px)  and (max-width: 700px) {
     
@@ -31,7 +32,7 @@ body{
           }
           .h1{
           margin-top: 5.7%;
-            margin-left: 2%;
+            margin-left: 0%;
             color: darkblue;
             font-size: 400%;
           }
@@ -98,7 +99,7 @@ body{
 
               .slogan{
                 color: darkblue; 
-               margin-left: 23%;
+               margin-left: 20%;
                 justify-content: center;
                 text-align: justify;
                 margin-top: 6.5%;
@@ -106,8 +107,8 @@ body{
             }
             .slogan span::before {
                 content: '';
-                width: 35%;
-                height: 3px;
+                width: 30%;
+                height: 1px;
                 background-color: darkblue;
                 position: absolute;
                 margin-top: 12%;
@@ -116,8 +117,8 @@ body{
             }
             .slogan span::after {
                 content: '';
-                width: 20%;
-                height: 3px;
+                width: 30%;
+                height: 1px;
                 background-color: darkblue;
                 position: absolute;
                 margin-top: 12%;
@@ -314,8 +315,13 @@ body{
                 text-align: center;
                 margin-left: 9%;
              }
-                .redes{
-                 display: flex;
+             .redes
+             {
+                 margin-left: 30%;
+                 margin-bottom: 10%;
+             }
+                .redes a{
+                 display: inline;
                  margin-left: 2%;
                  justify-content: center;
                 }
@@ -473,7 +479,7 @@ background-size: 100%;
   .slogan span::before {
         content: '';
         width: 20%;
-        height: 3px;
+        height: 1px;
         background-color: darkblue;
         position: absolute;
         margin-top: 1.3%;
@@ -483,7 +489,7 @@ background-size: 100%;
     .slogan span::after {
         content: '';
         width: 20%;
-        height: 3px;
+        height: 1px;
         background-color: darkblue;
         position: absolute;
         margin-top: 1.3%;
@@ -709,8 +715,13 @@ background-size: 100%;
          background-color: aliceblue;
          border-bottom: 40px solid #fff;
      }
-        .redes{
-         display: flex;
+     .redes
+     {
+         margin-left: 30%;
+         margin-bottom: 10%;
+     }
+        .redes a{
+         display: inline;
          margin-left: 2%;
          justify-content: center;
         }
@@ -769,4 +780,7 @@ background-size: 100%;
             margin-left: -50%;
         }
     
-    
+        .b{
+            font-size: 120%;
+            margin-right: 11.5%;
+           }

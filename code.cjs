@@ -41,7 +41,7 @@ app.post("/cadastro", encoder, (req, res)=>{
     const nome=req.body.nome
     const telefone=req.body.telefone
     const jogo_escolhido=req.body.jogo_escolhido
-    connection.query("INSERT INTO `cadastro`.`feira` (`nome`, `telefone`, `jogo_escolhido`) VALUES (?, ?, ?);", [nome, telefone, jogo_escolhido], (error)=>{
+    connection.query("INSERT INTO `bhkrqm8tmdklmlandf4l`.`feira` (`nome`, `telefone`, `jogo_escolhido`) VALUES (?, ?, ?)", [nome, telefone, jogo_escolhido], (error)=>{
         if(error){
             res.status(400).send(error)
         }
